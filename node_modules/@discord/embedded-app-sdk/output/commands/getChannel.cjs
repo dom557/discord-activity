@@ -1,0 +1,29 @@
+'use strict';
+
+var common = require('../schema/common.cjs');
+var responses = require('../schema/responses.cjs');
+var commandFactory = require('../utils/commandFactory.cjs');
+
+/**
+ *
+ * @description
+ * RPC documentation here: https://discord.com/developers/docs/topics/rpc#getchannel
+ * Calling getChannel gets info about the requested channel such as the channel name.
+ *
+ * Supported Platforms
+ * | Web | iOS | Android |
+ * |-----|-----|---------|
+ * | ✅  | ✅  | ✅      |
+ *
+ * Required scopes:
+ * - [guilds] for guild channels
+ * - [guilds, dm_channels.read] for GDM channels. dm_channels.read requires approval from Discord.
+ *
+ * @example
+ * await discordSdk.commands.getActivity({
+ *   channel_id: discordSdk.channelId,
+ * });
+ */
+const getChannel = (sendCommand) => commandFactory.commandFactory(sendCommand, common.Commands.GET_CHANNEL, responses.GetChannelResponse);
+
+exports.getChannel = getChannel;
