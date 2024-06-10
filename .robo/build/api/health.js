@@ -1,0 +1,5 @@
+export default (()=>{
+    return "ok";
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xccGNcXE9uZURyaXZlXFxEb2N1bWVudHNcXEdpdEh1YlxcZGlzY29yZC1hY3Rpdml0eVxcc3JjXFxhcGlcXGhlYWx0aC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCAoKSA9PiB7XHJcbiAgICByZXR1cm4gXCJva1wiXHJcbn0iXSwibmFtZXMiOltdLCJyYW5nZU1hcHBpbmdzIjoiOzsiLCJtYXBwaW5ncyI6IkFBQUEsZUFBZSxDQUFBO0lBQ1gsT0FBTztBQUNYLENBQUEsRUFBQyJ9
